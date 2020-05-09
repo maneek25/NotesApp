@@ -9,34 +9,34 @@ NoteApp lets users to create an account and log in using email and password. The
 
 Sample Demo Screenshots:
 At the start of the application, a user can log in if an account exist.
-![](Images/login.JPG)
+![](screenshots/login.JPG)
 
 If a user does not have an account, he or she can easily create it by clicking on the Sign-Up link in the bottom right corner.
-![](Images/signup.JPG)
+![](screenshots/signup.JPG)
 
 
 After creating an account, a user can log in, and the user will be redirected to the home page where all the notes will be available.
-![](Images/home.JPG)
+![](screenshots/home.JPG)
 
 
 A user may add a note by clicking on the plus button at the top of the home page. After clicking on the add button, a user will be redirected to add page where details about the new note can be filled out.
-![](Images/addnote.JPG)
+![](screenshots/addnote.JPG)
 
 
 After clicking on "Create Note" button, user will be redirected back to home page. From home page a user may want to view a note in more detail. This can be achieved by clicking on the "View Button" on the card, and user will be redirected to a page with more detail about a note. To go back to home, user can click on the back button on the bottom of the detailed note card.
-![](Images/viewNote.JPG)
+![](screenshots/viewNote.JPG)
 
 
 A user can check out the notes which a user is interested in and subscribe to a topic. If a user subscribes to a topic, the notes associated with the topic will be listed under the subscribed notes. All subscribed notes can be accessed by clicking on subscribed tag.
-![](Images/subscribed.JPG)
+![](screenshots/subscribed.JPG)
 
 
 Notes created by the user can be accessed by clicking on "Created by You".
-![](Images/ccreatedByYou.JPG)
+![](screenshots/createdByYou.JPG)
 
 
 Profile can be accessed by clicking on the profile link from the navigation bar placed at the top of the page. Profile gives you access to edit or delete a note you have created.
-![](Images/profile.JPG)
+![](screenshots/profile.JPG)
 
 
 Pre-requisites for setup:
@@ -83,10 +83,10 @@ Useful Docker commands:
 
 UML Diagrams:
 UML Class Diagram
-![](Images/UML_class.png)
+![](screenshots/UML_class.png)
 
 Sequence Diagram
-![](Images/sequence_diagram.png)
+![](screenshots/sequence_diagram.png)
 
 Schema:
 
