@@ -44,22 +44,23 @@ For running locally:
 1. A running computer with a functional operating system
 2. Internet Access
 3. Spring boot should be installed (IntelliJ can also be used for Spring boot) 
-4. maven should be installed 
-5. An editor (Visual Studios Code is preferred)
-6. A browser with JavaScript enabled
+4. Maven should be installed 
+5. Node.js should be installed
+6. An editor (Visual Studios Code is preferred)
+7. A browser with JavaScript enabled
 
 For running with global URL:
 1. A browser with JavaScript enabled
 2. Internet Access
 
 Instructions on how to run the project locally:
-Make sure you have maven installed.
+Need to open two separate terminal windows. One to run the frontend and one to run the backend
 
 Run without docker:
 1. Open terminal and go into SpringBoot_Backend directory 
 2. Run "mvn clean install"
 3. Now you can run the backend by entering the command "mvn spring-boot:run"
-4. Open terminal and go into React_Frontend directory
+4. Open another terminal and go into React_Frontend directory
 5. Run "npm install"
 6. Run "npm start"
 
@@ -69,7 +70,7 @@ Run with Docker:
 3. Run "mvn clean install"
 4. Run "sudo docker build -t noteapp:1.0 ."
 5. Run "sudo docker run -p 8080:8080 -t noteapp:1.0"
-6. Open terminal and go into React_Frontend directory
+6. Open another terminal and go into React_Frontend directory
 7. Run "npm install"
 8. Run "npm start"
 
