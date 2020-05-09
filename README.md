@@ -40,6 +40,7 @@ Profile can be accessed by clicking on the profile link from the navigation bar 
 
 
 Pre-requisites for setup:
+
 For running locally:
 1. A running computer with a functional operating system
 2. Internet Access
@@ -54,6 +55,7 @@ For running with global URL:
 2. Internet Access
 
 Instructions on how to run the project locally:
+
 Need to open two separate terminal windows. One to run the frontend and one to run the backend
 
 Run without docker:
