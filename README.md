@@ -56,24 +56,22 @@ Instructions on how to run the project locally:
 Make sure you have maven installed.
 
 Run without docker:
-1. Open terminal and go into NotesApp directory 
+1. Open terminal and go into SpringBoot_Backend directory 
 2. Run "mvn clean install"
 3. Now you can run the backend by entering the command "mvn spring-boot:run"
-4. download frontend from the repo https://github.com/udaypalsingh/NotesApp-React
-5. Open terminal and go to the directory where you downloaded the frontend
-6. Run "npm install"
-7. Run "npm start"
+4. Open terminal and go into React_Frontend directory
+5. Run "npm install"
+6. Run "npm start"
 
 Run with Docker:
 1. Make sure you have docker installed and it is running. 
-2. Open terminal and go into NotesApp directory 
+2. Open terminal and go into SpringBoot_Backend directory 
 3. Run "mvn clean install"
 4. Run "sudo docker build -t noteapp:1.0 ."
 5. Run "sudo docker run -p 8080:8080 -t noteapp:1.0"
-6. Download frontend from the repo https://github.com/udaypalsingh/NotesApp-React
-7. Open terminal and go to the directory where you downloaded the frontend
-8. Run "npm install"
-9. Run "npm start"
+6. Open terminal and go into React_Frontend directory
+7. Run "npm install"
+8. Run "npm start"
 
 Useful Docker commands:
 1. List all containers: "sudo docker ps"
