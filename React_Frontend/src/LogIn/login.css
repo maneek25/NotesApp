@@ -1,0 +1,10 @@
+.bg {
+    background-image: url("https://images.hdqwalls.com/download/minimal-abstract-background-5k-hi-1920x1080.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+    min-width: 100vw;
+    background-repeat: inherit;
+    background-size: cover;
+}

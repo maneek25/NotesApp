@@ -1,0 +1,7 @@
+com/javasampleapproach/dynamodb/config/DynamoDBConfig.class
+com/javasampleapproach/dynamodb/repo/NoteRepository.class
+com/javasampleapproach/dynamodb/repo/UserRepository.class
+com/javasampleapproach/dynamodb/controller/WebController.class
+com/javasampleapproach/dynamodb/SpringDataDynamoDbApplication.class
+com/javasampleapproach/dynamodb/model/Note.class
+com/javasampleapproach/dynamodb/model/User.class

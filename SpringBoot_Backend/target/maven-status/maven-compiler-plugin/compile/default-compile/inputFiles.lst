@@ -1,0 +1,7 @@
+/Users/gastongarrido/Desktop/NoteApp/Backend/NotesApp/src/main/java/com/javasampleapproach/dynamodb/config/DynamoDBConfig.java
+/Users/gastongarrido/Desktop/NoteApp/Backend/NotesApp/src/main/java/com/javasampleapproach/dynamodb/controller/WebController.java
+/Users/gastongarrido/Desktop/NoteApp/Backend/NotesApp/src/main/java/com/javasampleapproach/dynamodb/SpringDataDynamoDbApplication.java
+/Users/gastongarrido/Desktop/NoteApp/Backend/NotesApp/src/main/java/com/javasampleapproach/dynamodb/model/User.java
+/Users/gastongarrido/Desktop/NoteApp/Backend/NotesApp/src/main/java/com/javasampleapproach/dynamodb/repo/NoteRepository.java
+/Users/gastongarrido/Desktop/NoteApp/Backend/NotesApp/src/main/java/com/javasampleapproach/dynamodb/model/Note.java
+/Users/gastongarrido/Desktop/NoteApp/Backend/NotesApp/src/main/java/com/javasampleapproach/dynamodb/repo/UserRepository.java
