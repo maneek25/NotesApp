@@ -88,6 +88,11 @@ Sequence Diagram
 ![](screenshots/sequence_diagram.png)
 
 Schema:
+User Table Schema
+![](screenshots/userSchema.png)
+
+Note Table Schema
+![](screenshots/noteSchema.png)
 
 Database Queries:
 
