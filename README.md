@@ -4,10 +4,10 @@ Course: Enterprise Software - CMPE 172/Spring 2020
 
 Team Members: Maneek Dhillon, Gaston Garrido, Udaypal Singh
 
-Project Introduction:
+Project Introduction:  
 NoteApp lets users to create an account and log in using email and password. The application allows users to create a note which will be available and can be viewed by everyone. A note has a topic, title, content, username, and created at fields. Although every user can see the note, only the user who created it will have the authority to edit or delete it. Our application will let users subscribe to a topic which will be very convenient to manage topics which users are interested in. If at some point user wants to unsubscribe to topic, there is also unsubscribe option for that functionality. Overall, our application will create a platform to share notes with different topics which will be easily be accessible from our home page.
 
-Sample Demo Screenshots:
+Sample Demo Screenshots:  
 At the start of the application, a user can log in if an account exist.
 ![](screenshots/login.JPG)
 
@@ -39,8 +39,7 @@ Profile can be accessed by clicking on the profile link from the navigation bar 
 ![](screenshots/profile.JPG)
 
 
-Pre-requisites for setup:
-
+Pre-requisites for setup:  
 For running locally:
 1. A running computer with a functional operating system
 2. Internet Access
@@ -54,8 +53,7 @@ For running with global URL:
 1. A browser with JavaScript enabled
 2. Internet Access
 
-Instructions on how to run the project locally:
-
+Instructions on how to run the project locally:  
 Need to open two separate terminal windows. One to run the frontend and one to run the backend
 
 Run without docker:
@@ -82,34 +80,31 @@ Useful Docker commands:
 3. tag image: "sudo docker image tag noteapp:1.0 your_id/noteapp:1.0"
 4. Push Image to docker hub: run tag image command then run "sudo docker image push your_id/noteapp:1.0"
 
-UML Diagrams:
-
+UML Diagrams:  
 UML Class Diagram
 ![](screenshots/UML_class.png)
 
 Sequence Diagram
 ![](screenshots/sequence_diagram.png)
 
-Schema:
-
+Schema:  
 User Table Schema
 ![](screenshots/userSchema.png)
 
 Note Table Schema
 ![](screenshots/noteSchema.png)
 
-Database Queries:
-
-You do not use actual queries for DynamoDB. You use functions that are already supported by DynamoDB. We used methods that were provided by Spring's CRUD Repository interface.
-These methods include:
-findAll();
-save();
-delete();
-findOne();
+Database Queries:  
+You do not use actual queries for DynamoDB. You use functions that are already supported by DynamoDB. We used methods that were provided by Spring's CRUD Repository interface.  
+These methods include:  
+findAll();  
+save();  
+delete();  
+findOne();  
 
 
 Mid tier APIs:
 
-UI data transport:
+UI data transport:  
 Data is transferred with Json objects
 
