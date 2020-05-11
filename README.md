@@ -83,6 +83,7 @@ Useful Docker commands:
 4. Push Image to docker hub: run tag image command then run "sudo docker image push your_id/noteapp:1.0"
 
 UML Diagrams:
+
 UML Class Diagram
 ![](screenshots/UML_class.png)
 
@@ -90,6 +91,7 @@ Sequence Diagram
 ![](screenshots/sequence_diagram.png)
 
 Schema:
+
 User Table Schema
 ![](screenshots/userSchema.png)
 
@@ -97,6 +99,14 @@ Note Table Schema
 ![](screenshots/noteSchema.png)
 
 Database Queries:
+
+You do not use actual queries for DynamoDB. You use functions that are already supported by DynamoDB. We used methods that were provided by Spring's CRUD Repository interface.
+These methods include:
+findAll();
+save();
+delete();
+findOne();
+
 
 Mid tier APIs:
 
