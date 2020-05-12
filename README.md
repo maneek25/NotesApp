@@ -103,7 +103,7 @@ delete();
 findOne();  
 
 
-Mid tier APIs:
+Mid tier APIs: 
 Axios
 REST API Spring Boot
 
