@@ -103,9 +103,9 @@ delete();
 findOne();  
 
 
-Mid tier APIs: 
-Axios
-REST API Spring Boot
+Mid tier APIs: <br />
+Axios<br />
+REST API Spring Boot<br />
 
 
 UI data transport:  
